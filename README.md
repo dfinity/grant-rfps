@@ -1,6 +1,6 @@
 # Grant RFPS and Bounties
 
-Grant RFPs and bounties are listed as Issues.
+Grant RFPs and bounties are listed as [Issues](https://github.com/dfinity/grant-rfps/issues).
 
 ## Grant RFPs
 
@@ -20,4 +20,4 @@ Bounties can come in the following flavors (Project Types):
 
 ## Contact
 
-If you have any questions, please approach us in the [grants channel](https://discord.com/channels/748416164832608337/835198109473570817) on the Internet Computer Developer Discord.
+If you have any questions, or want to suggest a RFP or a bounty, please approach us in the [grants channel](https://discord.com/channels/748416164832608337/835198109473570817) on the Internet Computer Developer Discord.
