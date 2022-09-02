@@ -9,6 +9,14 @@ assignees: ''
 
 ## Overview
 
+Status:
+Project Type:
+Time Commitment:
+Experience Level:
+Size:
+
+## Description
+
 ## Use Cases
 
 ## Acceptance Criteria
