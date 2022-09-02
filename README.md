@@ -10,7 +10,7 @@ Please submit your application at https://dfinity.org/grants and mention the RFP
 
 ## Bounties
 
-Bounties are light-weight tasks with well-defined acceptance criteria and a price tag.
+Bounties are tasks with well-defined acceptance criteria and a price tag.
 
 Bounties can come in the following flavors (Project Types):
 - Traditional: One applicant is selected to work on the task.
