@@ -14,10 +14,10 @@ Bounties are tasks with well-defined acceptance criteria and a price tag.
 
 Bounties can come in the following flavors (Project Types):
 - Traditional: One applicant is selected to work on the task.
-- Multiple: Multiple applicants can get selected to work on the taks and get paid.
+- Multiple: Multiple applicants can get selected to work on the tasks and get paid.
 - Contest: Multiple workers can submit work, but only the winner is paid.
 - Cooperative: Multiple workers can submit work, and the bounty is shared.
 
 ## Contact
 
-If you have any questions, or want to suggest a RFP or a bounty, please approach us in the [grants channel](https://discord.com/channels/748416164832608337/835198109473570817) on the Internet Computer Developer Discord.
+If you have any questions or want to suggest an RFP or a bounty, please approach us in the [grants channel](https://discord.com/channels/748416164832608337/835198109473570817) on the Internet Computer Developer Discord.
