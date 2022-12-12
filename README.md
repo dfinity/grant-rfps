@@ -18,6 +18,8 @@ Bounties can come in the following flavors (Project Types):
 - Contest: Multiple workers can submit work, but only the winner is paid.
 - Cooperative: Multiple workers can submit work, and the bounty is shared.
 
-## Contact
+## How to contribute
 
-If you have any questions or want to suggest an RFP or a bounty, please approach us in the [grants channel](https://discord.com/channels/748416164832608337/835198109473570817) on the Internet Computer Developer Discord.
+Please help define and rank potential future bounties in the [Discussions](https://github.com/dfinity/grant-rfps/discussions) section.
+
+If you have any questions you can find us in the [grants channel](https://discord.com/channels/748416164832608337/835198109473570817) on the Internet Computer Developer Discord.
