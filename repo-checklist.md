@@ -53,7 +53,7 @@ People typically can get much more information on a blink if you provide a pictu
 
 Some tools that might be helful for this:
 
-- [Kap](https://getkap.co/) - Screen recording with GIF export
+- [Kap](https://getkap.co/) - Screen recording with GIF export (Mac only)
 - [VHS](https://github.com/charmbracelet/vhs) - Tool to create GIFs of cli demos
 - [Carbon](https://carbon.now.sh/) - Tool to create buitiful code snippets
 
@@ -71,6 +71,7 @@ If you already have a repository and want to add a license, here's a [how to](ht
 There are quite a few guides on how to improve the GitHub presence of your project that go far beyond the basics provided here. 
 This gets important in particualar when you want to attract additional contributors ot your project.
 
+- [Some examples for inspiration](https://github.com/matiassingers/awesome-readme)
 - [GitHub repo guide: Increase engagement on your public GitHub repositories](https://www.freecodecamp.org/news/increase-engagement-on-your-public-github-repositories/)
 - [5 Tricks to create an impressive Github repository](https://dev.to/ruppysuppy/5-tricks-to-create-an-impressive-github-repository-19m6)
 - [Community building guidelines from GitHub](https://docs.github.com/en/communities)
