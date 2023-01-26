@@ -21,8 +21,19 @@ GitHub allows to associate a description, URLs and tags to your project. You sho
 
 ### :blue_book: Create an informative README
 
-The README is the public resume of your project. It should at least provide a high level overview and the goals of your project. Some other useful content of your README could be:
+The `README.md` is the public resume of your project. It should at least provide a high level overview and the goals of your project.
 
+Some other useful content of your README could be:
+
+
+#### :triangular_ruler: Provide an overview of the architecture and tech stack
+
+A brief description and an architecture diagram helps visitors quickly understand the high-level architecutre of your project.
+
+Some tools to create architecute diagrams:
+
+- [Exildraw](https://excalidraw.com/) - Web editor to create beautiful diagrams in hand-written style.
+- [Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) - Diagrams as code directly embeddable in GitHub Markdown.
 
 #### :construction: Provide an update on your milestones and the progress
 
@@ -40,6 +51,11 @@ How can people use or build/run your project. If you want to have others contrib
 
 People typically can get much more information on a blink if you provide a picture or a short video/gif that shows your project in action.
 
+Some tools that might be helful for this:
+
+- [Kap](https://getkap.co/) - Screen recording with GIF export
+- [VHS](https://github.com/charmbracelet/vhs) - Tool to create GIFs of cli demos
+- [Carbon](https://carbon.now.sh/) - Tool to create buitiful code snippets
 
 ### :page_with_curl: Add a license 
 
