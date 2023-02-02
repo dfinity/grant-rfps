@@ -9,7 +9,7 @@
 - [ ] [Add a license](#Add-a-license)
 
 
-### :tada: Chose a good name for your project
+### :tada: Choose a good name for your project
 
 Naming is important. A good name will make your project attractive and can help people discover it.
 
