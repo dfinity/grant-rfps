@@ -15,7 +15,7 @@ Highlight some features:
 
 Adding an illustration of the architecture can quickly explain how the project is built, and how it works. 
 
-![alt text](local-workflow.png)
+![Illustration Example](local-workflow.png)
 
 ## Installation
 Step-by-step guide to get a copy of the project up and running locally for development and testing.
