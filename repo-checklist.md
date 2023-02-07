@@ -21,7 +21,7 @@ GitHub allows to associate a description, URLs and tags to your project. You sho
 
 ### :blue_book: Create an informative README
 
-The `README.md` is the public resume of your project. It should at least provide a high level overview and the goals of your project.
+The `README.md` is the public resume of your project. It should at least provide a high level overview and the goals of your project. See example of a README file [here]([https://github.com/dfinity/grant-rfps/blob/main/grants/](https://github.com/dfinity/grant-rfps/blob/main/readme-example.md)
 
 Some other useful content of your README could be:
 
