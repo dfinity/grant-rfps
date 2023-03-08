@@ -1,4 +1,4 @@
-# Grant RFPS and Bounties
+# Grant RFPs and Bounties
 
 Grant RFPs and bounties are listed as [Issues](https://github.com/dfinity/grant-rfps/issues).
 
@@ -17,6 +17,10 @@ Bounties can come in the following flavors (Project Types):
 - Multiple: Multiple applicants can get selected to work on the tasks and get paid.
 - Contest: Multiple workers can submit work, but only the winner is paid.
 - Cooperative: Multiple workers can submit work, and the bounty is shared.
+
+## Requests for Startups
+
+We've also collected a list of ideas for startups where we think the Internet Computer would be a particularly good fit. Please check out the [Request for Startups](./requests-for-startups.md).
 
 ## How to contribute
 
