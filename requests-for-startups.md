@@ -21,6 +21,7 @@ If you'd like to add a request for startups, [start a discussion](https://github
 - [Ordinals Marketplace](#ordinals-marketplace)
 - [IC GameKit](#ic-gamekit)
 - [Decentralized Certificate Authority](#decentralized-certificate-authority)
+- [Decentralized Identifier (DID) Registry](#decentralized-identifier-did-registry)
 - [User-owned IoT Platform](#user-owned-iot-platform)
 - [Web3-ready App Development Platform](#web3-ready-app-development-platform)
 
@@ -129,7 +130,7 @@ Thereby, an IC GameKit could be (close to) a drop in replacement for AWS GameKit
 
 [Chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) allow canisters to issue x.509 certificates used in Public Key Infrastructures (PKIs). Hence, a canister can serve the role of a decentralized certificate authority. An interesting project would be to investigate if a canister using [chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) and [HTTPS Outcalls](https://internetcomputer.org/https-outcalls), potentially using a custom gateway, could serve as an ACME server similar to Let's encrypt. Note however that the `secp256k1` curve is currenty not supported by TLS.
 
-# Decentralized Identifier (DID) Registry
+## Decentralized Identifier (DID) Registry
 
 [Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-core/) are a nascent W3C Web standard at the basis of Self-Sovereign Identity (SSI). DIDs are long-lasting, user-controlled identifiers that can be used to authenticate to services, prove ownership of verifiable credentials, and more. There are many different DID methods and many of them are tied to a specific blockchain. The Internet Computer offers a unique opportunity to build a scalable blockchain-based DID method and DID registry, with capabilites such as
 - Leightweight verification of DID resolution results due to chain-key technology
