@@ -27,7 +27,7 @@ If you'd like to add a request for startups, [start a discussion](https://github
 
 ## Multichain Oracle Service
 
-Canister smart contracts can call web services using [HTTPS Outcalls](https://internetcomputer.org/https-outcalls) and can sign transactions targeting [various blockchains that support ECDSA (with curve `secp256k1`)](http://ethanfast.com/top-crypto.html) using [Chain-key Signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa). One major use case of oracles is to bring price information on chain. With the [exchange rate canister](https://github.com/dfinity/exchange-rate-canister) (currently in beta), there’s already an open internet service available on the Internet Computer that allows to fetch various exchange rates.
+Canister smart contracts can call web services using [HTTPS Outcalls](https://internetcomputer.org/https-outcalls) and can sign transactions targeting [various blockchains that support ECDSA (with curve `secp256k1`)](http://ethanfast.com/top-crypto.html) using [Chain-key Signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa). One major use case of oracles is to bring price information on chain. With the [exchange rate canister](https://github.com/dfinity/exchange-rate-canister) (currently in beta), there’s already an open internet service available on the Internet Computer that allows to fetch various exchange rates. Furthermore, canisters have access to cryptographic randomness which can be provided to other chains.
 
 ### Examples
 
