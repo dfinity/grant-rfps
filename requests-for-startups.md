@@ -22,6 +22,7 @@ If you'd like to add a request for startups, [start a discussion](https://github
 - [IC GameKit](#ic-gamekit)
 - [Decentralized Certificate Authority](#decentralized-certificate-authority)
 - [User-owned IoT Platform](#user-owned-iot-platform)
+- [Web3-ready App Development Platform](#web3-ready-app-development-platform)
 
 ## Multichain Oracle Service
 
@@ -34,9 +35,10 @@ Canister smart contracts can call web services using [HTTPS Outcalls](https://in
 ## Crosschain Messaging Service
 
 The Interent Computer is well suited to build a crosschain messaging service, because
-- Chain-key signatures allow to sign transactions destined for various chains
+- [Chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) allow to sign transactions destined for various chains
 - Messages from the IC can be verified by 1-2 BLS signatures, instead of following a blockchain, i.e. for chains that support cost efficient BLS signature verification on-chain, it's simple to verify messages from the IC.
-- The capabilites of canister smart contracts makes it feasible to implement on-chain light clients for other chains if available.
+- [HTTPS Outcalls](https://internetcomputer.org/https-outcalls) allow to submit and retrieve messages to and from other chains.
+- The capabilites of canister smart contracts makes it feasible to implement [on-chain light clients for other chains](https://github.com/dfinity/grant-rfps/issues/25) if available.
 
 ### Examples
   
@@ -69,7 +71,7 @@ The Internet Computer is a perfect platform to build smart contract wallets beca
 
 ## Multichain Decentralized Exchange
 
-Chain-key Signatures, HTTPS Outcalls and crosschain integrations allow canister smart contracts to hold various currencies in non-custodial escrow. Furthermore, the Internet Computer's computational capabilitites and high throuput allow to build not only AMM-based exchanges, but also order-book based exchanges. The upcoming feautre, threshold encryption, will also allow to build exchanges with MEV-protection.
+[Chain-key Signatures](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/), [HTTPS Outcalls](https://internetcomputer.org/https-outcalls) and crosschain integrations ([Bitcoin](https://internetcomputer.org/bitcoin-integration), [Ethereum](https://forum.dfinity.org/t/long-term-r-d-integration-with-the-ethereum-network/9382/42)) allow canister smart contracts to hold various currencies in non-custodial escrow. Furthermore, the Internet Computer's computational capabilitites and high throuput allow to build not only AMM-based exchanges, but also order-book based exchanges. The upcoming feature, [threshold key derivation](https://forum.dfinity.org/t/threshold-key-derivation-privacy-on-the-ic/16560), will also allow to build exchanges with MEV-protection.
 
 ### Examples
 
@@ -127,9 +129,26 @@ Thereby, an IC GameKit could be (close to) a drop in replacement for AWS GameKit
 
 [Chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) allow canisters to issue x.509 certificates used in Public Key Infrastructures (PKIs). Hence, a canister can serve the role of a decentralized certificate authority. An interesting project would be to investigate if a canister using [chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) and [HTTPS Outcalls](https://internetcomputer.org/https-outcalls), potentially using a custom gateway, could serve as an ACME server similar to Let's encrypt. Note however that the `secp256k1` curve is currenty not supported by TLS.
 
+# Decentralized Identifier (DID) Registry
+
+[Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-core/) are a nascent W3C Web standard at the basis of Self-Sovereign Identity (SSI). DIDs are long-lasting, user-controlled identifiers that can be used to authenticate to services, prove ownership of verifiable credentials, and more. There are many different DID methods and many of them are tied to a specific blockchain. The Internet Computer offers a unique opportunity to build a scalable blockchain-based DID method and DID registry, with capabilites such as
+- Leightweight verification of DID resolution results due to chain-key technology
+- Potential implementation of the right to be forgotten, since blocks are garbage collected and entries can be removed from the state
+- Immutable or governed DID registry
+- Advanced recovery features for DIDs
+
 ## User-owned IoT Platform
 
-There have been many instances of IoT products being bricked, because the cloud platform has been turned off. The Internet Computer allows to build a decentralized cloud platform for IoT prodcuts, where either the backend service can be owned by the respective user or a multi-tenant platform can be owned by the users collectively, e.g. by utilizing the Service Network System.
+There have been many instances of IoT products being bricked, because the cloud platform has been turned off. The Internet Computer allows to build a decentralized cloud platform for IoT prodcuts, where either the backend service can be owned by the respective user or a multi-tenant platform can be owned by the users collectively, e.g. by utilizing the [Service Network System](https://internetcomputer.org/docs/current/developer-docs/integrations/sns/tokenomics/).
 
 The Internet Computer is specifically well suited as the basis of an IoT platform, because IoT devices can verify messages from the IC by verifyng a single BLS signature instead of keeping track of a blockchain.
 
+## Web3-ready App Development Platform
+
+The Internet Computer's powerful computing and hosting environment allows to build app development platforms with similar feature set than web2 app development platforms such as Firebase, but without the platform risk and the access to cutting-edge web3 integrations such as payments and NFTs.
+
+### Example
+
+- [Juno](https://juno.build/)
+
+<!-- ## Neutral Enterprise Integration Platform -->
