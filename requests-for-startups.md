@@ -25,6 +25,7 @@ If you'd like to add a request for startups, [start a discussion](https://github
 - [Decentralized Identifier (DID) Registry](#decentralized-identifier-did-registry)
 - [User-owned IoT Platform](#user-owned-iot-platform)
 - [Web3-ready App Development Platform](#web3-ready-app-development-platform)
+- [Registry](#registry)
 
 ## Multichain Oracle Service
 
@@ -154,3 +155,17 @@ The Internet Computer's powerful computing and hosting environment allows to bui
 - [Juno](https://juno.build/)
 
 <!-- ## Neutral Enterprise Integration Platform -->
+
+##  Registry
+
+The Internet Computer allows to build registries, such as
+- Package registries (npm, Docker Hub, ...)
+- Code repositories (GitHub, GitLab, ...)
+that are not controlled by a single entity.
+
+There is a large design space to explore from completely neutral registries to registries with decentralized governance, as well as tokenomics to incentivize contributions.
+
+### Examples
+- [Codebase](https://codebase.org/)
+- [MOPS](https://mops.one/)
+   
