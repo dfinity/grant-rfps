@@ -49,7 +49,7 @@ The Interent Computer is well suited to build a crosschain messaging service, be
 
 ## Governance Platform for DAOs
 
-Many DAOs, in particualr in the Ethereum ecosystem, use [Snapshot](https://snapshot.org) for off-chain governance, because on-chain voting is just too expensive. The Internet Computer, however, provides a perfect platform to implement a cost-effective on-chain voting platform that is able to enforce voting results on the Internet Computer itself (e.g. to enforce a frontend upgrade) as well other target chains using [Chain-key Signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa).
+Many DAOs, in particular in the Ethereum ecosystem, use [Snapshot](https://snapshot.org) for off-chain governance, because on-chain voting is just too expensive. The Internet Computer, however, provides a perfect platform to implement a cost-effective on-chain voting platform that is able to enforce voting results on the Internet Computer itself (e.g. to enforce a frontend upgrade) as well other target chains using [Chain-key Signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa).
 
 ## Multichain Smart Contract Wallet
 
