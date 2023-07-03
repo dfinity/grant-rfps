@@ -37,11 +37,11 @@ Canister smart contracts can call web services using [HTTPS Outcalls](https://in
 
 ## Crosschain Messaging Service
 
-The Interent Computer is well suited to build a crosschain messaging service, because
-- [Chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) allow to sign transactions destined for various chains
-- Messages from the IC can be verified by 1-2 BLS signatures, instead of following a blockchain, i.e. for chains that support cost efficient BLS signature verification on-chain, it's simple to verify messages from the IC.
+The Interent Computer is well suited to build a cross-chain messaging service, because
+- [Chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) allow signing transactions destined for various chains
+- Messages from the IC can be verified by 1-2 BLS signatures, instead of following a blockchain, i.e. for chains that support cost-efficient BLS signature verification on-chain, it's simple to verify messages from the IC.
 - [HTTPS Outcalls](https://internetcomputer.org/https-outcalls) allow to submit and retrieve messages to and from other chains.
-- The capabilites of canister smart contracts makes it feasible to implement [on-chain light clients for other chains](https://github.com/dfinity/grant-rfps/issues/25) if available.
+- The capabilities of canister smart contracts make it feasible to implement [on-chain light clients for other chains](https://github.com/dfinity/grant-rfps/issues/25) if available.
 
 ### Examples
   
@@ -49,11 +49,11 @@ The Interent Computer is well suited to build a crosschain messaging service, be
 
 ## Governance Platform for DAOs
 
-Many DAOs, in particualr in the Ethereum ecosystem, use [Snapshot](https://snapshot.org) for off-chain governance, because on-chain voting is just too expensive. The Internet Computer, however, provides a perfect platform to implement a cost-effective on-chain voting platform that is able to enforce voting results on the Internet Computer itself (e.g. to enforce a frontend upgrade) as well other target chains using [Chain-key Signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa).
+Many DAOs, in particular in the Ethereum ecosystem, use [Snapshot](https://snapshot.org) for off-chain governance, because on-chain voting is just too expensive. The Internet Computer, however, provides a perfect platform to implement a cost-effective on-chain voting platform that is able to enforce voting results on the Internet Computer itself (e.g. to enforce a frontend upgrade) as well other target chains using [Chain-key Signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa).
 
 ## Multichain Smart Contract Wallet
 
-Smart contract wallets are becoming the new default because they can provide a better user experience as well more security. Among others, smart contract wallets allow:
+Smart contract wallets are becoming the new default because they can provide a better user experience as well as more security. Among others, smart contract wallets allow:
 
 - The definition of various authentication methods
 - Multi-factor authentication
@@ -62,9 +62,9 @@ Smart contract wallets are becoming the new default because they can provide a b
 
 The Internet Computer is a perfect platform to build smart contract wallets because:
 
-- It allows to target multiple chains using [Chain-key signatures](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/).
-- You can build full-stack web wallets, since canister smart contracts can serve web browsers directly.
-- The Internet Computer itself support various authentication methods such as [WebAuthn](https://webauthn.io/), and the Internet Computer is efficient enough to allow developers to implement custom authentication methods on application level.
+- It allows targeting multiple chains using [Chain-key signatures](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/).
+- You can build full-stack web wallets since canister smart contracts can serve web browsers directly.
+- The Internet Computer itself supports various authentication methods such as [WebAuthn](https://webauthn.io/), and the Internet Computer is efficient enough to allow developers to implement custom authentication methods on application level.
 
 ### Examples
 
@@ -74,7 +74,7 @@ The Internet Computer is a perfect platform to build smart contract wallets beca
 
 ## Multichain Decentralized Exchange
 
-[Chain-key Signatures](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/), [HTTPS Outcalls](https://internetcomputer.org/https-outcalls) and crosschain integrations ([Bitcoin](https://internetcomputer.org/bitcoin-integration), [Ethereum](https://forum.dfinity.org/t/long-term-r-d-integration-with-the-ethereum-network/9382/42)) allow canister smart contracts to hold various currencies in non-custodial escrow. Furthermore, the Internet Computer's computational capabilitites and high throuput allow to build not only AMM-based exchanges, but also order-book based exchanges. The upcoming feature, [threshold key derivation](https://forum.dfinity.org/t/threshold-key-derivation-privacy-on-the-ic/16560), will also allow to build exchanges with MEV-protection.
+[Chain-key Signatures](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/), [HTTPS Outcalls](https://internetcomputer.org/https-outcalls) and cross-chain integrations ([Bitcoin](https://internetcomputer.org/bitcoin-integration), [Ethereum](https://forum.dfinity.org/t/long-term-r-d-integration-with-the-ethereum-network/9382/42)) allow canister smart contracts to hold various currencies in non-custodial escrow. Furthermore, the Internet Computer's computational capabilities and high throughput allow for building not only AMM-based exchanges but also order-book based exchanges. The upcoming feature, [threshold key derivation](https://forum.dfinity.org/t/threshold-key-derivation-privacy-on-the-ic/16560), will also allow building exchanges with MEV-protection.
 
 ### Examples
 
@@ -82,15 +82,15 @@ The Internet Computer is a perfect platform to build smart contract wallets beca
 
 ## Provider for (dynamic) NFT assets
 
-Most NFTs in the greater Web3 ecosystem are pointers to off-chain assets. Best practice for this pointers is to use content-addressing with IPFS, and then use a compatible storage network (or a service provider like [Pinata](https://pinata.cloud)) to actually host the assets. However, this is limited to static assets. On the Internet Computer you can build a service to host assets in canister smart contracts linked to NFTs on the IC itself, but also on other chains. In addition, these assets can be generated in real-time according to rules defined in the canister smart contract.
+Most NFTs in the greater Web3 ecosystem are pointers to off-chain assets. Best practice for these pointers is to use content-addressing with IPFS, and then use a compatible storage network (or a service provider like [Pinata](https://pinata.cloud)) to actually host the assets. However, this is limited to static assets. On the Internet Computer, you can build a service to host assets in canister smart contracts linked to NFTs on the IC itself, but also on other chains. In addition, these assets can be generated in real time according to rules defined in the canister smart contract.
 
 ## ckBTC Mobile Payment App
 
-Bitcoin was the first cryptocurrency, it has still by far the largest market capitalization, and the greatest distribution. However, transaction costs and latency make BTC payments unsuitable for most applications. The Lightning Network is being built to tackle these issues, but is highly complex and has certain user experience drawbacks. On the other hand, the Internet Computer provides chain-key Bitcoin (ckBTC) a token that is backed 1:1 by bitcoin held in canister smart contracts. With [ckBTC](https://internetcomputer.org/docs/current/developer-docs/integrations/bitcoin/ckbtc) - Bitcoin holders can opt into low fee and low latency payments, and can redeem for native BTC at any time. In addition, ckBTC is the perfect fit for a non-custodial mobile payment app since you can verify payments and transfers by just checking the signature of the Internet Computer. There’s no need to download the chain of block headers, or interact with centralized backed infrastructure.
+Bitcoin was the first cryptocurrency, it has still by far the largest market capitalization, and the greatest distribution. However, transaction costs and latency make BTC payments unsuitable for most applications. The Lightning Network is being built to tackle these issues but is highly complex and has certain user experience drawbacks. On the other hand, the Internet Computer provides chain-key Bitcoin (ckBTC) a token that is backed 1:1 by bitcoin held in canister smart contracts. With [ckBTC](https://internetcomputer.org/docs/current/developer-docs/integrations/bitcoin/ckbtc) - Bitcoin holders can opt into low fee and low latency payments, and can redeem for native BTC at any time. In addition, ckBTC is the perfect fit for a non-custodial mobile payment app since you can verify payments and transfers by just checking the signature of the Internet Computer. There’s no need to download the chain of block headers or interact with centralized backed infrastructure.
 
 ## Backup and Watchtower Service for Lightning Network Users
 
-Lightning has two problems: it requires constant backups of newly generated channel state data or otherwise the lightning node could lose funds. And it requires watching channel (watch towers). For both things a canister can help. So the setup would be a traditional lightning node and a canister that supports it in the background which benefits from being tamperproof, always online and can’t get destroyed. So the canister can serve as a backup target for channel data and also as a watchtower. The latter means that the canister, via the Bitcoin integration, can watch for the channel getting closed by the counterparty and it can submit the penalty transaction if the counterparty attempts to close it with an old state.
+Lightning has two problems: it requires constant backups of newly generated channel state data or otherwise the lightning node could lose funds. And it requires watching channels (watch towers). For both things, a canister can help. So the setup would be a traditional lightning node and a canister that supports it in the background which benefits from being tamperproof, always online and can’t get destroyed. So the canister can serve as a backup target for channel data and also as a watchtower. The latter means that the canister, via the Bitcoin integration, can watch for the channel getting closed by the counterparty and it can submit the penalty transaction if the counterparty attempts to close it with an old state.
 
 More info in this [forum thread](https://forum.dfinity.org/t/integration-with-btc-lightning/18821/2).
 
@@ -104,7 +104,7 @@ The [Bitcoin integration](https://internetcomputer.org/bitcoin-integration) allo
 
 ## Ordinals Marketplace
 
-[Ordinals](https://ordinals.com/) have brought a new wave of experimentation and innovation to the Bitcoin ecosystem. Ordinals are a mechanism to associate a serial numbers to individual Satoshis (the smallest denominator of a Bitcoin), and define different levels of rarity to them. Furthermore, with a mechanism called inscribing, we can attach metadata to an ordinal, similar to NFTs. The Bitcoin protocol allows to build non-custodial marketplaces, but they are not user friendly, and allow no other currency than Bitcoin. With the Bitcoin integration, you can build non-custodial marketplaces for Ordinals on the Internet Computer.
+[Ordinals](https://ordinals.com/) have brought a new wave of experimentation and innovation to the Bitcoin ecosystem. Ordinals are a mechanism to associate a serial number to individual Satoshis (the smallest denominator of a Bitcoin) and define different levels of rarity to them. Furthermore, with a mechanism called inscribing, we can attach metadata to an ordinal, similar to NFTs. The Bitcoin protocol allows to build of non-custodial marketplaces, but they are not user-friendly, and allow no other currency than Bitcoin. With the Bitcoin integration, you can build non-custodial marketplaces for Ordinals on the Internet Computer.
 
 ### Examples
 
@@ -130,11 +130,11 @@ Thereby, an IC GameKit could be (close to) a drop in replacement for AWS GameKit
 
 ## Decentralized Certificate Authority
 
-[Chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) allow canisters to issue x.509 certificates used in Public Key Infrastructures (PKIs). Hence, a canister can serve the role of a decentralized certificate authority. An interesting project would be to investigate if a canister using [chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) and [HTTPS Outcalls](https://internetcomputer.org/https-outcalls), potentially using a custom gateway, could serve as an ACME server similar to Let's encrypt. Note however that the `secp256k1` curve is currenty not supported by TLS.
+[Chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) allow canisters to issue x.509 certificates used in Public Key Infrastructures (PKIs). Hence, a canister can serve the role of a decentralized certificate authority. An interesting project would be to investigate if a canister using [chain-key signatures](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa) and [HTTPS Outcalls](https://internetcomputer.org/https-outcalls), potentially using a custom gateway, could serve as an ACME server similar to Let's encrypt. Note however that the `secp256k1` curve is currently not supported by TLS.
 
 ## Decentralized Identifier (DID) Registry
 
-[Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-core/) are a nascent W3C Web standard at the basis of Self-Sovereign Identity (SSI). DIDs are long-lasting, user-controlled identifiers that can be used to authenticate to services, prove ownership of verifiable credentials, and more. There are many different DID methods and many of them are tied to a specific blockchain. The Internet Computer offers a unique opportunity to build a scalable blockchain-based DID method and DID registry, with capabilites such as
+[Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-core/) are a nascent W3C Web standard at the basis of Self-Sovereign Identity (SSI). DIDs are long-lasting, user-controlled identifiers that can be used to authenticate to services, prove ownership of verifiable credentials, and more. There are many different DID methods and many of them are tied to a specific blockchain. The Internet Computer offers a unique opportunity to build a scalable blockchain-based DID method and DID registry, with capabilities such as
 - Leightweight verification of DID resolution results due to chain-key technology
 - Potential implementation of the right to be forgotten, since blocks are garbage collected and entries can be removed from the state
 - Immutable or governed DID registry
@@ -142,9 +142,9 @@ Thereby, an IC GameKit could be (close to) a drop in replacement for AWS GameKit
 
 ## User-owned IoT Platform
 
-There have been many instances of IoT products being bricked, because the cloud platform has been turned off. The Internet Computer allows to build a decentralized cloud platform for IoT prodcuts, where either the backend service can be owned by the respective user or a multi-tenant platform can be owned by the users collectively, e.g. by utilizing the [Service Network System](https://internetcomputer.org/docs/current/developer-docs/integrations/sns/tokenomics/).
+There have been many instances of IoT products being bricked because the cloud platform has been turned off. The Internet Computer allows building a decentralized cloud platform for IoT products, where either the backend service can be owned by the respective user or a multi-tenant platform can be owned by the users collectively, e.g. by utilizing the [Service Network System](https://internetcomputer.org/docs/current/developer-docs/integrations/sns/tokenomics/).
 
-The Internet Computer is specifically well suited as the basis of an IoT platform, because IoT devices can verify messages from the IC by verifyng a single BLS signature instead of keeping track of a blockchain.
+The Internet Computer is specifically well suited as the basis of an IoT platform because IoT devices can verify messages from the IC by verifying a single BLS signature instead of keeping track of a blockchain.
 
 ## Web3-ready App Development Platform
 
@@ -158,7 +158,7 @@ The Internet Computer's powerful computing and hosting environment allows to bui
 
 ##  Registry
 
-The Internet Computer allows to build registries, such as
+The Internet Computer allows building registries, such as
 - Package registries (npm, Docker Hub, ...)
 - Code repositories (GitHub, GitLab, ...)
 that are not controlled by a single entity.
