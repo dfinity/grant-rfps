@@ -83,14 +83,16 @@ The Internet Computer is a perfect platform to build smart contract wallets beca
 
 [Chain-key Signatures](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/), [HTTPS Outcalls](https://internetcomputer.org/https-outcalls) and cross-chain integrations ([Bitcoin](https://internetcomputer.org/bitcoin-integration), [Ethereum](https://forum.dfinity.org/t/long-term-r-d-integration-with-the-ethereum-network/9382/42)) allow canister smart contracts to hold various currencies in non-custodial escrow. Furthermore, the Internet Computer's computational capabilities and high throughput allow for building not only AMM-based exchanges but also order-book based exchanges. The upcoming feature, [threshold key derivation](https://forum.dfinity.org/t/threshold-key-derivation-privacy-on-the-ic/16560), will also allow building exchanges with MEV-protection.
 
-## xChain Automation and Web3 Functions
-
-Typical smart contracts can't run autonomously but have to be triggered by an incoming transaction. Canister smart contracts on the other hand can employ a heartbeat or timer to trigger periodic execution. In combination with Chain-key Signatures](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/) and[HTTPS Outcalls](https://internetcomputer.org/https-outcalls), you can build xChain automation and decentralized cloud functions similar to [Gelato Network](https://gelato.network/). 
-
 ### Examples
 
 - [Helix Markets](https://www.helixmarkets.io/)
 - [ICDex](https://iclight.io/ICDex)
+
+
+## xChain Automation and Web3 Functions
+
+Typical smart contracts can't run autonomously but have to be triggered by an incoming transaction. Canister smart contracts on the other hand can employ a heartbeat or timer to trigger periodic execution. In combination with Chain-key Signatures](https://internetcomputer.org/how-it-works/threshold-ecdsa-signing/) and[HTTPS Outcalls](https://internetcomputer.org/https-outcalls), you can build xChain automation and decentralized cloud functions similar to [Gelato Network](https://gelato.network/). 
+
 
 ## Provider for (dynamic) NFT assets
 
@@ -112,6 +114,7 @@ The [Bitcoin integration](https://internetcomputer.org/bitcoin-integration) allo
 
 ### Examples
 
+- [Elliptic DAO](https://ellipticdao.org/)
 - [Backed USD](https://forum.dfinity.org/t/backed-usd-a-bitcoin-backed-stablecoin-on-the-ic-a-prototype/18430)
 
 ## Ordinals Marketplace
@@ -121,6 +124,7 @@ The [Bitcoin integration](https://internetcomputer.org/bitcoin-integration) allo
 ### Examples
 
 - [Bioniq](https://bioniq.io/)
+
 
 ## IC GameKit
 
