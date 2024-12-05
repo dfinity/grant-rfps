@@ -26,4 +26,4 @@ We've also collected a list of ideas for startups where we think the Internet Co
 
 Please help define and rank potential future bounties in the [Discussions](https://github.com/dfinity/grant-rfps/discussions) section.
 
-If you have any questions you can find us in the [grants channel](https://discord.com/channels/748416164832608337/835198109473570817) on the Internet Computer Developer Discord.
+If you have any questions you can find us in the #developer-grants channel on the [ICP Discord](https://discord.internetcomputer.org).
