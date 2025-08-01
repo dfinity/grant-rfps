@@ -6,8 +6,6 @@ List of ideas for startups in the Internet Computer ecosystem.
 If you're interested, you can apply for a developer grant at https://dfinity.org/grants to get things rolling.
 In addition, we'll be happy to support you with technical guidance, PR, as well as introductions to the community and investors.
 
-If you'd like to add a request for startups, [start a discussion](https://github.com/dfinity/grant-rfps/discussions).
-
 <!-- omit in toc -->
 
 ## Contents
