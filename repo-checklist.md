@@ -21,7 +21,8 @@ GitHub allows to associate a description, URLs and tags to your project. You sho
 
 ### :blue_book: Create an informative README
 
-The `README.md` is the public resume of your project. It should at least provide a high level overview and the goals of your project. See example of a README file [here]([https://github.com/dfinity/grant-rfps/blob/main/grants/](https://github.com/dfinity/grant-rfps/blob/main/readme-example.md)
+The `README.md` is the public resume of your project. It should provide a high-level overview and describe the goals of the project. See an example of a README file [here](https://github.com/dfinity/grant-rfps/blob/main/readme-example.md).
+
 
 Some other useful content of your README could be:
 
@@ -30,7 +31,7 @@ Some other useful content of your README could be:
 
 A brief description and an architecture diagram helps visitors quickly understand the high-level architecutre of your project.
 
-Some tools to create architecute diagrams:
+Some tools to create architecture diagrams:
 
 - [Exildraw](https://excalidraw.com/) - Web editor to create beautiful diagrams in hand-written style.
 - [Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) - Diagrams as code directly embeddable in GitHub Markdown.
